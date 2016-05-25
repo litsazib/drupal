@@ -358,29 +358,37 @@ label{
   color: #666;
   font-size: 15px;
 }
-input.css-checkbox[type="checkbox"]:checked + label.css-label {
-    background-position: 0 -30px;
-}
-input.css-checkbox[type="checkbox"] + label.css-label {
-    background-repeat: no-repeat;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 15px;
-    font-weight: normal;
-    height: 30px;
-    line-height: 30px;
-    padding-left: 44px;
-    vertical-align: middle;
-}
-label.css-label {
-  -moz-user-select: none;
-  background-image: url("../images/checked.png");
-  
-}
 /*Responsive issue
 
 */
+input[type=checkbox].css-checkbox {
+position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+}
+input[type=checkbox].css-checkbox + label.css-label {
+background-position: 0 0;
+background-repeat: no-repeat;
+cursor: pointer;
+display: inline-block;
+font-size: 15px;
+font-weight: normal;
+height: 20px;
+line-height: 20px;
+padding-left: 40px;
+vertical-align: middle;
 
+}
+input[type=checkbox].css-checkbox:checked + label.css-label {
+	background-position: 0 -20px;
+}
+label.css-label {
+background-image:url(../images/checked.png);
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
 
 
 
