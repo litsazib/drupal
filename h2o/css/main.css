@@ -288,25 +288,97 @@ background: -moz-linear-gradient(top, rgba(125,185,232,0) 14%, rgba(125,185,232,
 	padding:10px;
 }
 .form-control{
+	background-color: #eaf4f8;
+	border: 1px solid #bbd7e2;
 	border-radius: 35px;
+	color: #125daa;
+	font-size: 20px;
 	height: 58px;
-	background-color:#eaf4f8;
-	border:1px solid #507ca9;
 
 }
 label{
 	font-size:20px;
 	color:#666;
 }
-#name::-moz-placeholder
-{
-  color:#FF00FF;
-}
 
 .caption{
 	margin-top:150px;
 }
-/*Responsive issue*/
+.warning{
+	color:#18aa50;
+}
+/*select*/
+.form-data select {
+    -moz-appearance: none;
+    position: relative;
+}
+.selectbox {
+    position: relative;
+}
+.selectbox::before {
+    color: #666;
+	content: "\f0d7";
+	font-family: FontAwesome;
+    font-size: 20px;
+    position: absolute;
+    right: 30px;
+    top: 57px;
+    z-index: 1;
+}
+#brack{
+	padding:30px 0px;
+}
+#brack hr{
+	background:#18aa50;
+}
+#tested_area{
+	padding-bottom:20px;
+}
+#tested_area h3{
+	color: #8d9aa9;
+}
+#tested_area p{
+	color: #666;
+	font-size: 18px;
+	width: 75%;
+}
+#select_area{
+	padding-bottom:50px;
+}
+#select_area h4{
+	color:#125daa;
+	font-weight:700;
+}
+.inner_text_left h5{
+	color: #666;
+	font-size: 15px;
+	font-weight: 700;
+}
+.inner_text_left {
+  color: #666;
+  font-size: 15px;
+}
+input.css-checkbox[type="checkbox"]:checked + label.css-label {
+    background-position: 0 -30px;
+}
+input.css-checkbox[type="checkbox"] + label.css-label {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 30px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 35px;
+  vertical-align: middle;
+}
+label.css-label {
+  -moz-user-select: none;
+  background-image: url("../images/checked.png");
+}
+/*Responsive issue
+
+*/
 
 
 

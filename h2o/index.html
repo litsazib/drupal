@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Place favicon.ico in the root directory -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/select.css">
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin"> 		
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/normalize.css">
@@ -123,51 +124,102 @@
 			</div>
 			</div>
 			<div class="col-md-12"> 
-			<form action="" class="testing_req">
+			<form action="" class="testing_req form-data">
 				<div class="col-md-6">
 					<div class="form-group">
-						<label for="exampleInputEmail1">Name</label>
-						<input type="text" class="form-control" name="name"id="exampleInputEmail1" placeholder="name">
+						<label for="exampleInputEmail1">Name<span class="warning">*<span></label>
+						<input type="text" class="form-control" name="name"id="exampleInputEmail1" placeholder="Craig T. Nelson">
 					  </div>
 					  <div class="form-group">
-						<label for="exampleInputPassword1">Address</label>
+						<label for="exampleInputPassword1">Address<span class="warning">*<span></label>
 						<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Address">
 					  </div>
 					  <div class="form-group">
-						<label for="exampleInputPassword1">City</label>
+						<label for="exampleInputPassword1">City<span class="warning">*<span></label>
 						<input type="text" class="form-control" id="exampleInputPassword1" placeholder="City">
 					  </div>
 					  <div class="form-group">
-						<label for="exampleInputPassword1">Phone Number</label>
-						<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Phone Number">
+						<label for="exampleInputPassword1">Phone Number<span class="warning">*<span></label>
+						<input type="text" class="form-control" id="exampleInputPassword1" placeholder="(202) 555-4567">
 					  </div>
 				</div>
 				<div class="col-md-6">
-										<div class="form-group">
-						<label for="exampleInputEmail1">Name</label>
-						<input type="text" class="form-control" id="exampleInputEmail1" placeholder="name">
+					<div class="form-group">
+						<label for="exampleInputEmail1">Email Address<span class="warning">*<span></label>
+						<input type="email" class="form-control" id="exampleInputEmail1" placeholder="name">
 					  </div>
 					  <div class="form-group">
-						<label for="exampleInputPassword1">Address</label>
+						<label for="exampleInputPassword1">Address 2<span class="warning">*<span></label>
 						<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Address">
 					  </div>
-					  <div class="form-group">
-						<label for="exampleInputPassword1">City</label>
-						<input type="text" class="form-control" id="exampleInputPassword1" placeholder="City">
+					  <div class="row"> 
+						<div class="col-md-6">
+						<div class="form-group">
+						<label for="exampleInputPassword1">State<span class="warning">*<span></label>
+						<input type="text" class="form-control" id="exampleInputPassword1" placeholder="City">	
+						  </div>
+						</div>
+						<div class="col-md-6">
+						<div class="form-group">
+						<label for="exampleInputPassword1">Zip code<span class="warning">*<span></label>
+						<input type="text" class="form-control" id="exampleInputPassword1" placeholder="City">	
+						  </div>
+						</div>
 					  </div>
-					  <div class="form-group">
-						<label for="exampleInputPassword1">Phone Number</label>
-						<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Phone Number">
+					  <div class="form-group selectbox">
+						<label for="exampleInputPassword1">Number of samples<span class="warning">*<span></label>
+							<select class="form-control">
+							<option selected="" value="Select">Select a number</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4 </option>
+							</select>
 					  </div>
 				</div>
 			</form>
 			</div>
 		</div>
-
 	</div>
 </section>
+<section id="brack"> 
+<div class="container"> <hr /></div>
+</section>
 
-
+<section id="tested_area"> 
+	<div class="container"> 
+	<div class="row"> 
+		<div class="col-md-12"> 
+		<h3>What parameters would you like tested<span class="warning">*<span></h3>
+		<p>If you are unsure what parameters you would like tested, please leave a note below and a member of the H2O QualityLab staff will contact you.</p>	
+		</div>
+	</div>
+	</div>
+</section>
+<section id="select_area"> 
+	<div class="container"> 
+		<div class="row"> 
+			<div class="col-md-6">
+				<h4>Potable Water</h4>				
+				<div class="inner_text_left">
+				<div class="col-md-12"> <h5>Organics</h5></div>
+					<div class="col-md-8">
+					<input type="checkbox" name="checkboxG5" id="checkboxG5" class="css-checkbox" checked="checked"/>
+					<label for="checkboxG5" class="css-label">Option 2</label>
+					
+					
+					</div>
+					<div class="col-md-4">$55.00</div>
+				</div>
+			</div>
+			
+			
+			<div class="col-md-6">
+				<h4>Water Reclamation</h4>
+			</div>
+		</div>
+	</div>
+</section>
 
 
 
