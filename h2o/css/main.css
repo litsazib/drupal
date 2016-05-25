@@ -362,19 +362,20 @@ input.css-checkbox[type="checkbox"]:checked + label.css-label {
     background-position: 0 -30px;
 }
 input.css-checkbox[type="checkbox"] + label.css-label {
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 30px;
-  height: 30px;
-  line-height: 30px;
-  padding-left: 35px;
-  vertical-align: middle;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: normal;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 44px;
+    vertical-align: middle;
 }
 label.css-label {
   -moz-user-select: none;
   background-image: url("../images/checked.png");
+  
 }
 /*Responsive issue
 
