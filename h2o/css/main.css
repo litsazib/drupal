@@ -97,13 +97,12 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-#header_area{
-	border-top:5px solid #18AA50;
-	position:fixed;
-	width:100%;
-	background:#fff;
-	z-index: 555;
-	border-bottom:1px solid #c0c0c0;
+
+.navbar-brand {
+    margin-top: -32px;
+}
+nav {
+padding: 40px 0 10px;
 }
 .navbar-default .navbar-nav > li > a{
 	color:#125daa;
@@ -126,13 +125,18 @@ textarea {
 }
 
 .single_menu{
-    float: right;
-    margin-top: 24px;
+    float: left;
+    margin-left: 548px;
+    margin-top: -27px;
 }
 .navbar-brand > img {
   display: block;
-  margin-top: -47px;
+  margin-left: 35px;
 }
+.navbar-right{
+	margin-right: 20px;
+}
+
 .single_menu ul{
 	list-style:none;
 
