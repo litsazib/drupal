@@ -45,6 +45,8 @@ hr {
     display: block;
     height: 1px;
     border: 0;
+    border-width: 0px;
+     height: 0;
     border-top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
@@ -468,32 +470,89 @@ margin-top: 0;
 	border:none;
 	box-shadow:none;
 }
+/*inner page css*/
+#banner_section> img {
+  max-width: 100%;
+  padding-top: 125px;
+}
+#breadcrumb_area{
+    background-color: #eaf4f8;
+}
+.breadcrumb {
+  background-color: transparent;
+  border-radius: 0;
+}
+.breadcrumb a {
+     color: #18aa50;
+}
+#inner_page h1,h2,h3{
+    color:#125daa;
+    font-weight: 700;
+}
+#inner_page h4{
+    color:#666;
+    font-weight: 700;
+}
+#inner_page h1{
+    font-size: 30pt;
+    font-weight: 700;
+}
+#inner_page p,.inner_list,.inner_serial{
+    color: #666;
+    font-size: 12pt;    
+}
+ul.inner_list{
+    color: #18aa50;
+
+}
+.inner_list span{
+    color: #666;
+}   
+#inner_page img{
+    margin: 18px;
+}   
+.relative{
+    position: relative;
+    width: 66%;
+    color: #666;
+}
+
+.msg {
+font-size: 12pt;
+left: 59px;
+position: absolute;
+top: 50px;
+width: 100%;
+line-height: 25px;
+} 
+.msg a {
+  text-decoration: none;
+}
+#bracks{
+    padding: 10px 0px;
+} 
+#bracks hr{
+    background-color: #666;
+}
+.customs_btn{
+    border-radius: 24px; 
+	padding: 12px 29px;
+	font-weight:700;
+	transition:0.8s;
+    background-color: transparent;
+    border-color:#18aa50;
+    color:#18aa50;
+}  
+#table_area  {
+    padding: 30px 0px; 
+}
+#table_area p{
+ color: #666;
+ font-size: 12pt; 
+}
 
 
-
-
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+    
    
    
    
