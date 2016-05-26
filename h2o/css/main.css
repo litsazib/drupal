@@ -191,16 +191,16 @@ padding: 40px 0 10px;
 }
 /*bannner section style*/
 #banner_area{
-	background-image:url(../images/banner.jpg);
-	color:#FFF;
-	padding-top:325px;
+background-image: url("../images/banner_gradint.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+color: #fff;
+padding-top: 325px;
+padding-bottom:28px;
 
 	
 }
-.banner_area{
-	position:absolute;
-	
-}
+
 .caption h1 {
   font-size: 40px;
   font-weight: 700;
@@ -233,12 +233,7 @@ padding: 40px 0 10px;
   font-size: 23px;
   line-height: normal;
 }
-.overlay{
-	position:relative;
-background: -moz-linear-gradient(top, rgba(125,185,232,0) 14%, rgba(125,185,232,0) 16%, rgba(117,177,225,0) 17%, rgba(30,87,153,0.13) 28%, rgba(30,87,153,1) 100%); /* FF3.6-15 */
-	width:100%;
-	padding-bottom:30px;
-}
+
 #promo_area{
 	background:#EBF4F9;
 	border-bottom:1px solid #C2DBE5;
