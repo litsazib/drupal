@@ -9,16 +9,35 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-body {
-   font-family: Ubuntu, sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@font-face {
+	font-family: 'Avenir Black';
+	src: url('../fonts/Avenir-Black.ttf'),
+        url('../fonts/Avenir-BlackOblique.ttf'),
+        url('../fonts/Avenir-Book.ttf'),
+        url('../fonts/Avenir-BookOblique.ttf'),
+        url('../fonts/Avenir-Heavy.ttf'),
+        url('../fonts/Avenir-HeavyOblique.ttf'),
+        url('../fonts/Avenir-Light.ttf'),
+        url('../fonts/Avenir-LightOblique.ttf'),
+        url('../fonts/Avenir-Medium.ttf'),
+        url('../fonts/Avenir-MediumOblique.ttf'),
+        url('../fonts/Avenir-Oblique.ttf'),
+        url('../fonts/Avenir-Roman.ttf'),
+  
 }
 
+body {
+  font-family:'Avenir Black',sans-serif;
+}
 html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
 }
-
+p{
+    font-family: 'Open Sans';
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -115,7 +134,9 @@ nav {
 padding: 40px 0 10px;
 }
 .navbar-default .navbar-nav > li > a{
-	color:#125daa;
+    color: #125daa;
+    font-size: 20px;
+    font-family: 'Avenir Black';
 }
 .navbar-default .navbar-nav > li > a:hover{
 	color:#18AA50;
@@ -136,7 +157,7 @@ padding: 40px 0 10px;
 
 .single_menu{
     float: left;
-    margin-left: 548px;
+    margin-left: 674px;
     margin-top: -27px;
 }
 .navbar-brand > img {
@@ -156,24 +177,27 @@ padding: 40px 0 10px;
 	padding:5px;
 }
 .single_menu ul li a {
-  color: #777777;
-  font-size: 13px;
-  font-weight: 700;
-  text-decoration: none;
+    color: #777777;
+    font-family: "Open Sans";
+    font-size: 14px;
+    text-decoration: none;
 }
 .single_menu ul li a:hover{}
 .serch input[type=text] {
-	background-color: #8D9AA9;
-	color:#FFF;
-	background-image: url("../images/searchicon.png");
-	background-position: 10px 4px;
-	background-repeat: no-repeat;
-	border: 1px solid #8D9AA9;
-	border-radius: 14px;
-	box-sizing: border-box;
-	padding: 5px 20px 6px 38px;
-	transition: width 0.4s ease-in-out 0s;
-	width: 162px;
+background-color: #8d9aa9;
+background-image: url("../images/searchicon.png");
+background-position: 220px 12px;
+background-repeat: no-repeat;
+border: 1px solid #8d9aa9;
+border-radius: 22px;
+box-sizing: border-box;
+color: #fff;
+font-family: "Open Sans";
+font-weight: 700;
+height: 42px;
+padding-left: 19px;
+transition: width 0.4s ease-in-out 0s;
+width: 260px;
 }
 /*
 .serch input[type=text]:focus {
@@ -284,13 +308,14 @@ padding-bottom:28px;
 }
 .text_area h1{
 	color: #125daa;
-	font-size: 40px;
-	font-weight: 700;
+	font-size: 44px;
+    font-family:"Avenir LT W01_95 Black1475556";
+
 }
 .text_area p{
     color: #666666;
-    font-size: 23px;
-    line-height: 29px;
+    font-size: 24px;
+
 }
 .testing_req{
 	margin-top:20px;
