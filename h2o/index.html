@@ -86,7 +86,7 @@
 	</div>
 </section>-->
 <section id="banner_area"> 
-	<div class="container">
+	<div class="container-fluid">
 	<div class="row" id="padding"> 
 		<div class="col-md-8">
 			<div class="caption"> 
@@ -166,16 +166,22 @@
 					  </div>
 					  <div class="row"> 
 						<div class="col-md-6">
-						<div class="form-group">
-						<label for="exampleInputPassword1">State<span class="warning">*<span></label>
-						<input type="text" class="form-control" id="exampleInputPassword1" placeholder="City">	
-						  </div>
+                               <div class="form-group selectbox">
+                                <label for="exampleInputPassword1">State<span class="warning">*<span></label>
+                                    <select class="form-control">
+                                    <option selected="" value="Select">VA</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4 </option>
+                                    </select>
+                              </div>
 						</div>
 						<div class="col-md-6">
-						<div class="form-group">
-						<label for="exampleInputPassword1">Zip code<span class="warning">*<span></label>
-						<input type="text" class="form-control" id="exampleInputPassword1" placeholder="City">	
-						  </div>
+                            <div class="form-group">
+                            <label for="exampleInputPassword1">Zip code<span class="warning">*<span></label>
+                            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="City">	
+                              </div>
 						</div>
 					  </div>
 					  <div class="form-group selectbox">
@@ -456,7 +462,7 @@
 					<div class="col-md-8 estimated">
 					<h3>Estimated total: </h3>
 					<p>($20 Collection fee added to all laboratory requests)  </p>
-					<h3>(Total esimated lab costs: </h3>
+					<h3>Total esimated lab costs: </h3>
 					</div>
 					<div class="col-md-4 estimated_total">
 						<h3 st>$184.75</h3>
@@ -528,8 +534,8 @@
 			</div>
 			<div class="col-md-6 address">
 			<h4>Prince William County Service Authority</h4>
-			<p class="extra">4 County Complex Court Woodbridge, VA 22192
-			© Copyright 2016 Prince William County Service Authority, All Rights Reserved</p>
+                <p class="extra">4 County Complex Court Woodbridge, VA 22192</p>
+			<p>&copy; Copyright 2016 Prince William County Service Authority, All Rights Reserved</p>
 			</div>
 		</div>
 	</div>
