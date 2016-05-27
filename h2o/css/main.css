@@ -38,6 +38,10 @@ html {
 p{
     font-family: 'Open Sans';
 }
+a{
+    color:#18aa50;
+
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
