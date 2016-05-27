@@ -99,7 +99,15 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+#mainmenu_area {
+  border-top: 3px solid #0fab4b;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+}
+.navbar{
+    border-radius: 0px;
+}
 .navbar-brand {
     margin-top: -32px;
 }
@@ -550,7 +558,15 @@ line-height: 25px;
  color: #666;
  font-size: 12pt; 
 }
-
+.table > thead > tr > th{
+    border: none;
+}
+tr,th{
+    text-align: center;
+}
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th{
+      border: none;  
+}
 
     
    
